@@ -1,4 +1,4 @@
-import midi, sys
+import midi
 
 pattern = midi.read_midifile(sys.argv[1])
 
